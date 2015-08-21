@@ -1,0 +1,10 @@
+#wrapper {
+  max-width: 200px;
+  margin: 0 auto;
+  border-radius: 10px;
+  text-align: center;
+  font: 50px center;
+  color: #fff;
+  background-color:#000;
+}
+
