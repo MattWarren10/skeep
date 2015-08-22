@@ -1,8 +1,21 @@
-var home = 0;
-document.write(home);
-var pointsScored = prompt("How many points did you score?");
-if (parseInt(pointsScored) >= 1) {
-  document.write(home += parseInt(pointsScored));
-} else {
-  alert("That is not a valid number.")
+function calculateTotalScore {
+  
 }
+
+
+//beginning score
+var score = 0;
+var input = prompt("How many points did you score?");
+var points = parseInt(input);
+var totalScore = score += points;
+
+//displays score 
+if (points > 0) {
+document.write(totalScore);
+} else if (points < 0) {
+  alert("You did not enter a valid number.");
+} else {
+  alert("You did not enter a valid number.");
+}
+
+
