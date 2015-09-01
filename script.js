@@ -1,13 +1,13 @@
-function calculateTotalScore {
-  
-}
+
 
 
 //beginning score
 var score = 0;
-var input = prompt("How many points did you score?");
-var points = parseInt(input);
-var totalScore = score += points;
+while (score < 10) {
+  var input = prompt("How many points did you score?");
+  var points = parseInt(input);
+  var totalScore = score += points;
+}
 
 //displays score 
 if (points > 0) {
